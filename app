@@ -19,7 +19,7 @@ bonjour();
     var somme = Number(a) + Number(b);
     console.log("la somme de " + a + "Et" + b + "est" + somme);
 }
-somme()
+somme();
 4- <!DOCTYPE html>
 <html lang="en">
 <head>
