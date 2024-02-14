@@ -72,3 +72,52 @@ somme();
 </body>
 </html>
 5- 
+
+function isString(data) {
+    return typeof data === 'string';
+}
+
+console.log("Exercice 1 : ")
+console.log(isString('hello65656'))
+console.log(isString([1, 6, 9]))       
+console.log(isString(5))     
+console.log(isString("Is54545et")) 
+
+6-
+
+function isBlank(input) {
+    return input.trim() === '';
+}
+
+console.log(isBlank(''))
+console.log(isBlank('aerazeré"&'))
+
+7-
+
+function stringToArray(str) {
+    return str.split(" ");
+};
+let myString = "ISET Tataouine 2023 Groupe1er";
+console.log(stringToArray(myString));
+
+
+8-
+
+function extractString(str1, length) 
+{
+  return str.slice(0, num);   
+};
+console.log(extractedString(aminebenromdhane, 4));
+console.log(extractedString(ISET tataouine, 7);
+
+ 9-
+
+ function protectEmail (user_email) {
+    let atIndex = email.indexOf("@");
+    let username = email.substring(0, atIndex);
+    let hiddenUsername = username.substring(0, Math.min(username.length, 3)) + "*****";
+    let domain = email.substring(atIndex);
+    return hiddenUsername + domain;
+
+console.log(protectEmail("isettataouine@gmail.com"));
+ 
